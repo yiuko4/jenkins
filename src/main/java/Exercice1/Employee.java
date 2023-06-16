@@ -1,5 +1,8 @@
 package Exercice1;
-/**
+
+/*
+ * Antoine Cibick
+ *
  * La classe Employye représente un employé.
  */
 public class Employee {
@@ -23,11 +26,10 @@ public class Employee {
     /**
      * Créer un nouvel employé avec un prénom, un nom, une année d'expérience et un niveau spécifiés.
      *
-     * @param prenom            le prénom de l'employé
-     * @param nom               le nom de l'employé
-     * @param anneeExperience   l'année d'expérience de l'employé
-     * @param niveau            le niveau de l'employé
-     *
+     * @param prenom          le prénom de l'employé
+     * @param nom             le nom de l'employé
+     * @param anneeExperience l'année d'expérience de l'employé
+     * @param niveau          le niveau de l'employé
      */
     public Employee(String prenom, String nom, int anneeExperience, String niveau) {
         this.prenom = prenom;
@@ -38,6 +40,7 @@ public class Employee {
 
     /**
      * Retourne le prénom de l'employé.
+     *
      * @return le prénom de l'employé
      */
     public String getPrenom() {
@@ -46,6 +49,7 @@ public class Employee {
 
     /**
      * Retourne le nom de l'employé.
+     *
      * @return le nom de l'employé
      */
     public String getNom() {
@@ -54,6 +58,7 @@ public class Employee {
 
     /**
      * Retourne l'année d'expérience de l'employé.
+     *
      * @return l'année d'expérience de l'employé
      */
     public int getAnneExperience() {
@@ -62,6 +67,7 @@ public class Employee {
 
     /**
      * Retourne le niveau de l'employé.
+     *
      * @return le niveau de l'employé
      */
     public String getNiveau() {
